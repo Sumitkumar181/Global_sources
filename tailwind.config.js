@@ -9,22 +9,20 @@ export default {
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
-        nunito: ["Nunito", "sans-serif"],
-        roboto: ["Roboto", "sans-serif"]
+        blinker: ["Blinker", "sans-serif"]
       },
       colors: {
-        greenPrimary: '#3B8A3B',
-        greenDark: '#2E6B2E',
-        yellowGold: '#E9A625',
-        brownWarm: '#A86F12',
-        textDark: '#3E2E12',
-        beigeLight: '#FDF7EF',
-        white: '#FFFFFF',
+        'gray': '#ADACAE',
+        'orange': '#C65E3B',
+        'charcoal': '#3B3A3F',
+        'richBlack': '#231F20',
+        'footer': '#1C1C1C',
       },
       boxShadow: {
-        custom: '0 4px 8px rgba(43, 122, 43, 0.2)',
       },
-      backgroundImage: {},
+      backgroundImage: {
+        'brown-radial': 'radial-gradient(circle, #C65E3B, #7C4D3B, #00273E)',
+      },
     },
   },
   plugins: [],

@@ -1,4 +1,7 @@
 import App from "../App";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Home from "../pages/Home";
 
 const AppRoutes = [
   {
@@ -7,7 +10,15 @@ const AppRoutes = [
     children: [
       {
         path: "",
-        element: <h1>heii</h1>,
+        element: <Home />,
+      },
+      {
+        path: "about",
+        element: <About />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
       },
     ],
   },

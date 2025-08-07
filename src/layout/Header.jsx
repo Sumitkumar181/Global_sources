@@ -1,9 +1,10 @@
 import React from "react";
+import Navbar from "../component/common/Navbar";
 
 const Header = () => {
   return (
-    <div>
-      <div className="w-[40px] h-[40px] rounded-full bg-brown-radial"></div>
+    <div className="">
+      <div className="px-14"><Navbar/></div>
     </div>
   );
 };

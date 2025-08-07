@@ -62,18 +62,18 @@ const TaiwanPromo = () => {
                     ))}
                 </Swiper>
             </div>
-            <div className=' mt-6 flex justify-evenly'>
+            <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4">
                 {categories.map((item, index) => (
                     <div
                         key={index}
-                        className='h-32 w-40 bg-[#f5f7fa] rounded-lg relative overflow-hidden'
+                        className="aspect-[4/3] bg-[#f5f7fa] rounded-lg relative overflow-hidden"
                     >
                         <img
                             src={item.image}
                             alt={item.name}
-                            className='h-full w-full object-cover'
+                            className="w-full h-full object-cover"
                         />
-                        <p className='absolute bottom-0 left-0 w-full text-center text-white text-sm bg-black/60 py-1'>
+                        <p className="absolute bottom-0 left-0 w-full text-center text-white text-sm bg-black/60 py-1">
                             {item.name}
                         </p>
                     </div>

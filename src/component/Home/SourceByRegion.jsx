@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-// All state emblems
+
 import Emblem_Rajasthan from '../../assets/homePageImage/Emblem_Rajasthan.png';
 import Manipur from '../../assets/homePageImage/Kanglasa.png';
 import Sikkim from '../../assets/homePageImage/Seal_of_Sikkim.png';
@@ -21,7 +21,7 @@ import Karnataka from '../../assets/homePageImage/Karnataka.webp';
 import Kerala from '../../assets/homePageImage/Kerala.webp';
 import Gujrat from '../../assets/homePageImage/Gujrat.png';
 
-// Array of states for DRY code
+
 const states = [
     { name: 'Rajasthan', image: Emblem_Rajasthan },
     { name: 'Manipur', image: Manipur },

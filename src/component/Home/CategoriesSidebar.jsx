@@ -16,6 +16,9 @@ const categories = [
     "Hardware",
     "Health Care",
     "Home Appliances",
+    "Hardware",
+    "Health Care",
+    "Home Appliances",
 ];
 
 const CategoriesSidebar = () => {
@@ -25,11 +28,11 @@ const CategoriesSidebar = () => {
                 <LuList color="black" size={24} />
                 <h2 className="text-black font-roboto font-bold">categories</h2>
             </div>
-            <div className="mt-4">
+            <div className="mt-4 ">
                 {categories.map((item, index) => (
-                    <div className="flex justify-between">
-                        <p className="text-black text-left justify-start mb-2 font-roboto text-sm">{item}</p>
-                        <IoIosArrowForward color="black"/>
+                    <div className="flex justify-between ">
+                        <p className="text-gray text-left justify-start mb-2 font-roboto text-sm hover:text-darkRed hover:text-base cursor-pointer">{item}</p>
+                        <IoIosArrowForward color="gray" />
                     </div>
                     
 

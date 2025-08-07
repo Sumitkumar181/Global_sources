@@ -139,24 +139,24 @@ const Navbar = () => {
                 <div className="hidden md:flex flex-1  justify-between items-center mx-6 gap-4">
                   
 
-                    <div className="w-full max-w-2xl flex items-center rounded-full bg-white  shadow-sm overflow-hidden focus-within:ring-2 focus-within:ring-red-400">
-                        
+                    <div className="w-full max-w-2xl flex items-center rounded-full bg-white border-2 border-darkRed shadow-sm overflow-hidden focus-within:ring-1 focus-within:ring-red-400">
+                     
                         <div className="relative">
-                            <select className="appearance-none text-sm px-4 py-3 pr-10 bg-white text-gray outline-none border-none">
+                            <select className="appearance-none text-sm px-4 py-3 pr-10 bg-white text-gray-700 outline-none border-none">
                                 <option>Products</option>
                                 <option>Suppliers</option>
                             </select>
                             <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
                         </div>
 
-                     
+                       
                         <input
                             type="text"
                             placeholder="I'm looking for..."
-                            className="flex-1 px-4 py-3 text-sm text-gray-700 placeholder:text-lightgray outline-none border-l border-lightgray"
+                            className="flex-1 px-4 py-3 text-sm text-gray-700 placeholder:text-gray-400 outline-none border-l border-gray-200"
                         />
 
-                     
+                      
                         <button className="bg-gradient-to-r from-lightRed to-darkRed text-white px-6 py-3 text-sm font-semibold hover:from-darkRed hover:to-darkRed transition-all duration-200 rounded-r-full">
                             Search
                         </button>

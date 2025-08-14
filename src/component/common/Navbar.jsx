@@ -163,10 +163,10 @@ const Navbar = () => {
                             <TbTargetArrow size={56} className="text-gray" />
                             <span className="text-gray">Request for Quotations</span>
                         </Link>
-                        <Link to="/test" className="flex items-center gap-1 hover:text-red-500  cursor-pointer">
+                        <div className="flex items-center gap-1 hover:text-red-500  cursor-pointer">
                             <LuUserRound size={56} className="text-gray" />
                             <span className="text-gray">Sign in / Register</span>
-                        </Link>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -195,14 +195,15 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="space-y-3 pt-4 border-t border-gray-200">
-                        <div className="flex items-center gap-2 hover:text-red-500 cursor-pointer">
+
+                        <Link to="/become-supplier" className="flex items-center gap-2 hover:text-red-500 cursor-pointer">
                             <PiStorefrontBold size={20} />
                             <span>Become a Supplier</span>
-                        </div>
-                        <div className="flex items-center gap-2 hover:text-red-500 cursor-pointer">
+                        </Link>
+                        <Link to="/request-buyer" className="flex items-center gap-2 hover:text-red-500 cursor-pointer">
                             <TbTargetArrow size={20} />
                             <span>Request for Quotations</span>
-                        </div>
+                        </Link>
                         <div className="flex items-center gap-2 hover:text-red-500 cursor-pointer">
                             <LuUserRound size={20} />
                             <span>Sign in / Register</span>

@@ -5,7 +5,7 @@ import MostPopular from "../Home/MostPopular";
 
 const Banner = () => {
     return (
-        <div className="bg-gradient-to-t to-[#2f67eb] from-white font-roboto text-white text-center py-6 px-4">
+        <div className="bg-gradient-to-t to-darkIndigo from-white font-roboto text-white text-center py-6 px-4">
             <div className='flex flex-col sm:flex-row justify-between items-center max-w-screen-xl mx-auto w-full gap-4'>
                 <div className="text-center sm:text-left sm:flex-1 grid items-center justify-center">
                     <h2 className="text-2xl sm:text-3xl font-bold mb-1">
@@ -13,7 +13,7 @@ const Banner = () => {
                     </h2>
                     <p className="text-sm">World-class AI, innovation and lifestyle sourcing</p>
                     <div className='mt-3'>
-                        <button className="mt-2 sm:mt-0 bg-white text-indigo font-semibold px-4 py-1 text-sm rounded-full hover:bg-gray-100 transition">
+                        <button className="mt-2 sm:mt-0 bg-white text-darkIndigo font-semibold px-4 py-1 text-sm rounded-full hover:bg-gray-100 transition">
                             Register Now
                         </button>
                     </div>

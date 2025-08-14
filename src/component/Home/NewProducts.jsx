@@ -64,12 +64,12 @@ const card = {
 
 export default function NewProducts() {
     return (
-        <div className="w-full container mx-auto mt-10 px-4 font-roboto py-6 rounded-lg shadow-lg bg-[#fafafc]">
+        <div className="w-full container mx-auto mt-10 px-4 font-roboto py-6 rounded-lg shadow-lg bg-[#0693e3]">
            
             <div className="flex justify-between items-center mb-6">
                 <h2 className="text-base sm:text-lg font-roboto font-semibold">
-                    <span className="text-blue-700 text-3xl italic font-bold">New <span className='text-gray'>Products</span></span>{' '}
-                    <span className="text-[#7b7b7c] text-sm font-normal pl-4">Explore the hottest releases in the past two weeks</span>
+                    <span className="text-white text-3xl italic font-bold">New <span className='text-black'>Products</span></span>{' '}
+                    <span className="text-white text-sm font-normal pl-4">Explore the hottest releases in the past two weeks</span>
                 </h2>
                 <button className="text-sm font-medium text-gray-600 hover:underline">See All</button>
             </div>

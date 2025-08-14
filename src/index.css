@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -16,27 +16,27 @@
 }
 @layer components {
   .H1 {
-    @apply text-[24px] leading-[32px] sm:text-[30px] sm:leading-[38px] xl:text-[36px] xl:leading-[44px] 2xl:text-[52px] 2xl:leading-[50px] font-blinker font-semibold;
+    @apply text-[24px] leading-[32px] sm:text-[30px] sm:leading-[38px] xl:text-[36px] xl:leading-[44px] 2xl:text-[52px] 2xl:leading-[50px] font-roboto font-semibold;
   }
 
   .H2 {
-    @apply text-[22px] leading-[30px] sm:text-[26px] sm:leading-[34px] xl:text-[32px] xl:leading-[40px] 2xl:text-[48px] 2xl:leading-[46px] font-blinker font-semibold;
+    @apply text-[22px] leading-[30px] sm:text-[26px] sm:leading-[34px] xl:text-[32px] xl:leading-[40px] 2xl:text-[48px] 2xl:leading-[46px] font-roboto font-semibold;
   }
 
   .H3 {
-    @apply text-[20px] leading-[28px] sm:text-[24px] sm:leading-[32px] xl:text-[28px] xl:leading-[36px] 2xl:text-[38px] 2xl:leading-[42px] font-blinker font-semibold;
+    @apply text-[20px] leading-[28px] sm:text-[24px] sm:leading-[32px] xl:text-[28px] xl:leading-[36px] 2xl:text-[38px] 2xl:leading-[42px] font-roboto font-semibold;
   }
 
   .H4 {
-    @apply text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] lg:text-[22px] lg:leading-[30px] font-blinker font-semibold;
+    @apply text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] lg:text-[22px] lg:leading-[30px] font-roboto font-semibold;
   }
 
   .H5 {
-    @apply text-[16px] leading-[24px] sm:text-[18px] sm:leading-[26px] font-blinker font-semibold;
+    @apply text-[16px] leading-[24px] sm:text-[18px] sm:leading-[26px] font-roboto font-semibold;
   }
 
   .H6 {
-    @apply text-[15px] leading-[22px] sm:text-[16px] sm:leading-[24px] font-blinker font-semibold;
+    @apply text-[15px] leading-[22px] sm:text-[16px] sm:leading-[24px] font-roboto font-semibold;
   }
 
   .P {

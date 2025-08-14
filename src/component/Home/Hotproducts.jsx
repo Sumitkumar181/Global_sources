@@ -43,7 +43,7 @@ const cardVariants = {
 export default function Hotproducts() {
     return (
         <motion.div
-            className='w-full bg-indigo container mx-auto mt-10 rounded-lg px-4 sm:px-4 lg:px-0 py-6'
+            className='w-full bg-darkIndigo container mx-auto mt-10 rounded-lg px-4 sm:px-4 lg:px-0 py-6'
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}

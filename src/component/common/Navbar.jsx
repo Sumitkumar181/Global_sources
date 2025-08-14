@@ -4,6 +4,7 @@ import { TbTargetArrow } from "react-icons/tb";
 import { LuUserRound } from "react-icons/lu";
 import { ChevronDown, Menu, X } from "lucide-react";
 import logo from "../../assets/image/Logo/logo.png";
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 
 const Dropdown = ({ label, items, isMobile }) => {
@@ -79,15 +80,6 @@ const Navbar = () => {
             "Karnataka",
             "Kerala",
             "Madhya Pradesh",
-            "Maharashtra",
-            "Manipur",
-            "Meghalaya",
-            "Mizoram",
-            "Nagaland",
-            "Odisha",
-            "Punjab",
-            "Rajasthan",
-            "Sikkim",
             "Tamil Nadu",
             "Telangana",
             "Tripura",
@@ -163,18 +155,18 @@ const Navbar = () => {
                     </div>
 
                     <div className="flex items-center gap-2">
-                        <div className="flex items-center gap-1 hover:text-red-500 cursor-pointer">
+                        <Link to="/become-supplier" className="flex items-center gap-1 hover:text-red-500 cursor-pointer">
                             <PiStorefrontBold size={56}  className="text-gray"/>
                             <span className="text-gray">Become a Supplier</span>
-                        </div>
-                        <div className="flex items-center gap-1 hover:text-red-500 cursor-pointer">
+                        </Link>
+                        <Link to="/request-buyer" className="flex items-center gap-1 hover:text-red-500 cursor-pointer">
                             <TbTargetArrow size={56} className="text-gray" />
                             <span className="text-gray">Request for Quotations</span>
-                        </div>
-                        <div className="flex items-center gap-1 hover:text-red-500  cursor-pointer">
+                        </Link>
+                        <Link to="/test" className="flex items-center gap-1 hover:text-red-500  cursor-pointer">
                             <LuUserRound size={56} className="text-gray" />
                             <span className="text-gray">Sign in / Register</span>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </nav>

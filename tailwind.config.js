@@ -9,7 +9,8 @@ export default {
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
-        blinker: ["Blinker", "sans-serif"]
+        blinker: ["Blinker", "sans-serif"],
+        
       },
       colors: {
         'gray': '#2d2d2d',
@@ -19,7 +20,7 @@ export default {
         'footer': '#1C1C1C',
         'darkRed': '#e50113',
         'lightRed': '#fc573f',
-        'indigo': '#007aff',
+        'darkIndigo': '#7a45e5',
         'lightgray': '#88898a'
       },
       boxShadow: {
